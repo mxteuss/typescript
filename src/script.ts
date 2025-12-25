@@ -5,7 +5,7 @@ btn.addEventListener("click", () => {
     const nome = document.getElementById('name') as HTMLInputElement;
     const contrato = document.getElementById('contrato') as HTMLInputElement;
 
-    if (contrato.value.toUpperCase() !== "Efetivo" && contrato.value.toUpperCase() !== "Terceirizado") {
+    if (contrato.value.toUpperCase() !== "EFETIVO" && contrato.value.toUpperCase() !== "TERCEIRIZADO") {
         alert("Tipo de contrato inválido! Use 'Efetivo' ou 'Terceirizado'.");
     }   
     else{
