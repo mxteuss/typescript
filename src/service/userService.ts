@@ -1,5 +1,5 @@
-import type { Errors } from "../interface/validate.js";
-import type { Employee } from "../interface/employee.js";
+import type { Errors } from "../model/validate.js";
+import type { Employee } from "../model/employee.js";
 
 const btn = document.getElementById("btnEnviar") as HTMLInputElement;
 let employee: Employee = {} as Employee;
